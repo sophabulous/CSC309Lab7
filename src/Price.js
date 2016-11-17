@@ -16,7 +16,12 @@ class Price extends Component {
    * Tips: Where does this.props come from? Look for examples of applying
    * styles in other parts of the app.  */
   render() {
-    // TODO
+    return (
+        <div
+          style={Object.assign({}, styles.price)}
+        >CDN$ {this.props.price}
+        </div>
+    );
   }
 }
 

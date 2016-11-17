@@ -29,6 +29,7 @@ class QuantitySelect extends Component {
     // TODO: implement `handleQuantityChange` so the state in `App.js` will
     // be updated. Recall that 'evt.target' contains the properties of the
     // event (see the input component below for these properties). 
+    this.props.updateQuantityHelp(evt.target.value);
   }
 
   render() {
